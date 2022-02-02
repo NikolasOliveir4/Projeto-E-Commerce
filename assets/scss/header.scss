@@ -11,10 +11,45 @@ header{
             padding: 10px 20px;
         }
         button{
+            position: relative;
+            right: 40px;
             background: none;
             border: none
             
+            
         }
     }
-}
 
+    ul{
+        li{
+            position: relative;
+            span.notification{
+                position: absolute;
+                color: $branco;
+                background: $rosa;
+                
+                font-size: 10px;
+                width: 15px;
+                height: 15px;
+
+                top: -11px;
+                left: 5px;
+               
+                border-radius: 100%;
+            }
+
+            a{
+                font-size: 16px;
+                font-weight: bold;
+                color: $cor-secundaria;
+                svg{
+                     
+                }
+                &:hover{
+                    color: initial;
+                }
+            }
+        }
+    }
+
+}
