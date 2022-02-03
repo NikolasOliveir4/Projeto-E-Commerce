@@ -82,6 +82,15 @@ nav.nav-produtos ul.nav li ul.nav li a {
   color: #FFf;
 }
 
+.banners-informativos-statico .banners-informativos-statico-12x {
+  background-color: #ff0f9a;
+  background-image: url("../images/parcele-em-12x.jpg");
+}
+.banners-informativos-statico .banners-informativos-statico-todo-br {
+  background-color: #B343C3;
+  background-image: url("../images/entrega-para-todo-brasil.jpg");
+}
+
 /*!
 * Bootstrap v5.1.3 (https://getbootstrap.com/)
 * Copyright 2011-2021 The Bootstrap Authors

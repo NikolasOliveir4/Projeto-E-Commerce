@@ -1,0 +1,19 @@
+@mixin banners-informativos($cor,$url-image,){
+    background-color: $cor;
+    background-image: url($url-image);
+    
+    
+}
+
+.banners-informativos-statico{
+    .banners-informativos-statico-12x{
+        @include banners-informativos($rosa, "../images/parcele-em-12x.jpg");
+        
+    }
+
+    .banners-informativos-statico-todo-br{
+        @include banners-informativos($roxo, "../images/entrega-para-todo-brasil.jpg");
+        
+    }
+}
+
