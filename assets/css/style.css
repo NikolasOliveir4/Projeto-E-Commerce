@@ -1,13 +1,5 @@
 @charset "UTF-8";
 @import "https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,900;1,500&family=Source+Sans+Pro:wght@200;300;400&display=swap";
-body {
-  color: #343A40;
-}
-
-a {
-  text-decoration: none !important;
-}
-
 header {
   background-color: #FFC107;
   padding: 25px;
@@ -120,6 +112,51 @@ nav.nav-produtos ul.nav li ul.nav li a {
 .banners-informativos-statico .banners-informativos-statico-12x p strong,
 .banners-informativos-statico .banners-informativos-statico-todo-br p strong {
   font-weight: bold;
+}
+
+.produtos {
+  margin: 30px 0;
+}
+.produtos .produtos-container {
+  margin: 30px 0;
+}
+.produtos .produtos-container .produtos-itens {
+  color: #343A40;
+}
+.produtos .produtos-container .produtos-itens h2 {
+  font-size: 19px;
+  margin: 10px 0 0;
+}
+.produtos .produtos-container .produtos-itens .produtos-stars {
+  font-size: 13px;
+}
+.produtos .produtos-container .produtos-itens .produtos-stars svg {
+  fill: #FFC107;
+}
+.produtos .produtos-container .produtos-itens .produtos-stars .produtos-preco {
+  font-size: 16px;
+}
+
+footer {
+  background: #343A40;
+  color: #FFf;
+}
+footer a {
+  color: #FFf;
+}
+footer a:hover {
+  color: #FFf;
+}
+footer h4 {
+  color: #FFC107;
+  font-size: 19px;
+  padding: 25px 0;
+}
+footer ul li.ellipsis {
+  width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 /*!
@@ -11671,5 +11708,20 @@ textarea.form-control-lg {
   }
 }
 /*# sourceMappingURL=bootstrap.min.css.map */
+body {
+  color: #343A40;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+h1 {
+  font-size: 26px;
+}
+
+h1, h2, h3, h4, h5 {
+  font-weight: bold;
+}
 
 /*# sourceMappingURL=style.css.map */

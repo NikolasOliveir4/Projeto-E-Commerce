@@ -1,3 +1,5 @@
+
+
 //Fonts
 @import "https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,900;1,500&family=Source+Sans+Pro:wght@200;300;400&display=swap";
 
@@ -5,14 +7,16 @@
 //variaveis
 @import "./variaveis.scss";
 
-@import "./config.scss";
+
 //Components
 @import "./header.scss";
 @import "./nav-produtos.scss";
 @import "./banners-informativos-statico.scss";
 @import "./produtos.scss";
+@import "./footer.scss";
 //Framework
 @import "./bootstrap.scss";
 
 //config
+@import "./config.scss";
 
