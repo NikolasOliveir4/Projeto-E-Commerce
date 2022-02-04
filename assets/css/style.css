@@ -82,6 +82,9 @@ nav.nav-produtos ul.nav li ul.nav li a {
   color: #FFf;
 }
 
+.banners-informativos-statico {
+  margin-top: 30px;
+}
 .banners-informativos-statico .banners-informativos-statico-12x {
   background-color: #ff0f9a;
   background-image: url("../images/parcele-em-12x.jpg");
@@ -89,6 +92,34 @@ nav.nav-produtos ul.nav li ul.nav li a {
 .banners-informativos-statico .banners-informativos-statico-todo-br {
   background-color: #B343C3;
   background-image: url("../images/entrega-para-todo-brasil.jpg");
+}
+.banners-informativos-statico .banners-informativos-statico-12x,
+.banners-informativos-statico .banners-informativos-statico-todo-br {
+  background-size: cover;
+  height: 105px;
+  padding: 20px 60px;
+  color: #FFf;
+}
+.banners-informativos-statico .banners-informativos-statico-12x svg, .banners-informativos-statico .banners-informativos-statico-12x p,
+.banners-informativos-statico .banners-informativos-statico-todo-br svg,
+.banners-informativos-statico .banners-informativos-statico-todo-br p {
+  margin: 0;
+  padding: 0;
+}
+.banners-informativos-statico .banners-informativos-statico-12x svg,
+.banners-informativos-statico .banners-informativos-statico-todo-br svg {
+  font-size: 40px;
+}
+.banners-informativos-statico .banners-informativos-statico-12x p,
+.banners-informativos-statico .banners-informativos-statico-todo-br p {
+  font-weight: 100;
+  font-size: 23px;
+  line-height: 110%;
+  margin-left: 20px;
+}
+.banners-informativos-statico .banners-informativos-statico-12x p strong,
+.banners-informativos-statico .banners-informativos-statico-todo-br p strong {
+  font-weight: bold;
 }
 
 /*!
