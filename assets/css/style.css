@@ -159,6 +159,40 @@ footer ul li.ellipsis {
   white-space: nowrap;
 }
 
+@media (max-width: 375px) {
+  .banners-informativos-statico .banners-informativos-statico-12x p,
+.banners-informativos-statico .banners-informativos-statico-todo-br p {
+    font-size: 14px;
+  }
+}
+@media (max-width: 767px) {
+  header a.logo-do-site {
+    margin: 20px;
+  }
+  header form {
+    margin: 20px 0;
+  }
+
+  #banners-promocionais {
+    display: none;
+  }
+
+  .produtos-container img {
+    width: 100%;
+  }
+
+  footer section.row h4 {
+    font-size: 16px !important;
+  }
+  footer section.row a, footer section.row p {
+    font-size: 13px;
+  }
+}
+@media (max-width: 991px) {
+  header ul li {
+    margin: 7px;
+  }
+}
 /*!
 * Bootstrap v5.1.3 (https://getbootstrap.com/)
 * Copyright 2011-2021 The Bootstrap Authors
