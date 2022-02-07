@@ -8,6 +8,9 @@
 @import "./variaveis.scss";
 
 
+
+
+
 //Components
 @import "./header.scss";
 @import "./nav-produtos.scss";
@@ -19,6 +22,12 @@
 //Framework
 @import "./bootstrap.scss";
 
+
+
+
 //config
 @import "./config.scss";
 
+//Components Bootstrap
+
+@import "./breadcrumb.scss";

@@ -11758,4 +11758,11 @@ h1, h2, h3, h4, h5 {
   font-weight: bold;
 }
 
+.breadcrumb {
+  margin: 40px;
+}
+.breadcrumb a {
+  color: #ff0f9a;
+}
+
 /*# sourceMappingURL=style.css.map */
