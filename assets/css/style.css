@@ -193,6 +193,17 @@ footer ul li.ellipsis {
     margin: 7px;
   }
 }
+.produtos-compra figure {
+  margin: 0;
+}
+.produtos-compra .produtos-conteudo h1 {
+  font-size: 32px;
+  margin: 0;
+}
+.produtos-compra .produtos-conteudo p {
+  font-size: 16px;
+}
+
 /*!
 * Bootstrap v5.1.3 (https://getbootstrap.com/)
 * Copyright 2011-2021 The Bootstrap Authors
@@ -11742,6 +11753,13 @@ textarea.form-control-lg {
   }
 }
 /*# sourceMappingURL=bootstrap.min.css.map */
+.breadcrumb {
+  margin: 40px;
+}
+.breadcrumb a {
+  color: #ff0f9a;
+}
+
 body {
   color: #343A40;
 }
@@ -11756,13 +11774,6 @@ h1 {
 
 h1, h2, h3, h4, h5 {
   font-weight: bold;
-}
-
-.breadcrumb {
-  margin: 40px;
-}
-.breadcrumb a {
-  color: #ff0f9a;
 }
 
 /*# sourceMappingURL=style.css.map */
