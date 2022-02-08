@@ -12,4 +12,27 @@
             font-size: 16px;
         }
     }
+    .produtos-preco{
+        .produtos-stars{
+            svg{
+                fill: $amarelo
+            }
+        }
+
+        strong{
+            font-size: 40px;
+        }
+
+        form{
+            font-weight: 100;
+            label{
+                margin: 5px 0;
+            }
+        }
+
+        .produtos-stars svg, strong span, form{
+            font-size: 16px;
+        }
+    }
+    
 }
